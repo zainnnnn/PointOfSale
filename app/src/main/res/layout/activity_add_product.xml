@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Mens_Products.AddProductActivity">
+
+    <ImageView
+        android:id="@+id/imageViewForProduct"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/addlogo"/>
+
+    <EditText
+        android:id="@+id/etProductTitle"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="Product Title"
+        android:paddingLeft="20dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/etProductDescription"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Price"
+        android:paddingLeft="20dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+    <Button
+        android:id="@+id/btnAddProductNow"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorCyano"
+        android:text="Add Now"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

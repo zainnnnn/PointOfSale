@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#355177</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#355177</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#0A640A</color>
+    <color name="white">#7C8286</color>
+    <color name="seeGreenn">#9CF1E9</color>
+    <color name="seeGreen">#60C2B8</color>
+    <color name="seeGreenLight">#008577</color>
+    <color name="seeGreenDark">#00574B</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#0F0F0F</color>
+    <color name="colorForHint">#9C9898</color>
+    <color name="colorBlue">#4055CA</color>
+    <color name="lightGray">#BABBBE</color>
+    <color name="darkGray">#7B7C7E</color>
+    <color name="colorPurple">#D755EE</color>
+    <color name="colorCyano">#355177</color>
+    <color name="colorDullBlue">#9773DB</color>
+    <color name="colorTitleOne">#FF5722</color>
+    <color name="colorPrimaryDarkSecond">#1D1D29</color>
+    <color name="colorPrimarySecond">#2B2A3A</color>
+    <color name="colorAccentSecond">#D73C5C</color>
+
+    <color name="colorLogoBack">#28002E</color>
+    <color name="logocolor">#E6EAEE</color>
+    <color name="frontbac">#355177</color>
+    <color name="caslogo">#D0D3D4</color>
+    <color name="hintcolorloginedittext">#A19D94</color>
+    <color name="tintedittext">#43B2CE</color>
+    <color name="colorForHinttext">#355177</color>
+    <color name="splachbck">#003760</color>
+    <color name="Black">#0A0A0A</color>
+    <color name="gray">#F0F4FF</color>
+    <color name="colorDarkBlue">#4055CA</color>
+</resources>

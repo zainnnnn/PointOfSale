@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewForProduct"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/logo_big" />
+
+        <TextView
+            android:id="@+id/tvCompanyTitleForDeleteDialog"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorForHinttext"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/et_CompanyReasonForDeleteDialog"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Reason"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnDeleteCompany"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorCyano"
+            android:gravity="center"
+            android:text="Delete Now"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCancelDeleteCompany"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorCyano"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

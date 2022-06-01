@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caspos">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cas"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".invoice"></activity>
+        <activity android:name=".AddresActivity" />
+        <activity android:name=".LastActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".Bill_Activity" />
+        <activity android:name=".Signup.SignUpActivity" />
+        <activity android:name=".Women_Products.UpdateCategoryActivity" />
+        <activity android:name=".Women_Products.DeleteCategoryActivity" />
+        <activity
+            android:name=".Mens_Products.ProductTypeActivity"
+            android:label="Mens Products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".company.AddCompanyActivity" />
+        <activity
+            android:name=".company.CompanyActivity"
+            android:label="Companies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".varient.VarientActivity"
+            android:label="Customers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Kids_Products.AddSubCategoryActivity" />
+        <activity
+            android:name=".Kids_Products.SubCategoryActivity"
+            android:label="Kids Products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login.LoginActivity" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Women_Products.AddCatagoriesActivity" />
+        <activity
+            android:name=".Women_Products.CategorieslistActivity"
+            android:label="Women Products"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Mens_Products.AddProductActivity" />
+        <activity android:name=".flavour.FlavourActivity" />
+        <activity android:name=".flavour.AddFlavourActivity" />
+        <activity android:name=".varient.AddVariantActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

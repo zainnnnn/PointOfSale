@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <ImageView
+        android:id="@+id/imageViewForProduct"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/logo_big"/>
+
+    <TextView
+        android:id="@+id/tvFlavourTitleForDeleteDialog"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/tvFlavourReasonForDeleteDialog"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Reason"
+        android:inputType="text"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnDeleteFlavour"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorCyano"
+        android:gravity="center"
+        android:text="Delete Now"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnCancelDeleteFalvour"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorCyano"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

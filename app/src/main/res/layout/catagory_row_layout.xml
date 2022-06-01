@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginRight="4dp"
+        app:cardCornerRadius="2dp"
+        android:layout_marginTop="1dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="@dimen/left_band_on_row"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewForCategoryRow"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/logo_big" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/tv_rowForCategoryTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center|left"
+                        android:paddingLeft="30dp"
+                        android:text="Product Title"
+                        android:textColor="@color/splachbck"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                      <LinearLayout
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal">
+                          <TextView
+                              android:layout_width="40dp"
+                              android:layout_height="50dp"
+                              android:textColor="@color/seeGreenLight"
+                              android:textSize="23sp"
+                              android:paddingLeft="5dp"
+                              android:text="Rs-/">
+                          </TextView>
+                          <TextView
+                              android:id="@+id/tv_rowForCategoryDescription"
+                              android:layout_width="200dp"
+                              android:layout_height="50dp"
+                              android:gravity="center|left"
+                              android:paddingLeft="15dp"
+                              android:text="Description"
+                              android:textColor="@color/seeGreenLight"
+                              android:textSize="23sp"
+                              android:textStyle="bold" />
+                      </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
